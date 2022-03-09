@@ -1,0 +1,303 @@
+/* html {
+  background-image: url("https://previews.123rf.com/images/phaisarnwong/phaisarnwong2002/phaisarnwong200200019/140167997-transportation-and-logistics-of-container-cargo-ship-and-cargo-plane-3d-rendering-and-illustration-.jpg");
+  background-position: center;
+  height: 100%;
+} */
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.form {
+  margin: 10px auto;
+  width: 300px;
+  padding: 30px 25px;
+  background: white;
+  opacity: 0.8;
+}
+
+h1.login-title {
+  color: #666;
+  margin: 0px auto 25px;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.login-input {
+  font-size: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 25px;
+  height: 25px;
+  width: calc(100% - 23px);
+}
+
+.login-input:focus {
+  border-color: #6e8095;
+  outline: none;
+}
+
+.login-button {
+  color: #fff;
+  background: #ffffff;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.link {
+  color: #666;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.link a {
+  color: #666;
+}
+
+h3 {
+  font-weight: normal;
+  text-align: center;
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color:#4BCBE2;
+  color: #fff;
+}
+
+.nav-links a {
+  color: rgb(211, 224, 24);
+}
+
+/* LOGO */
+.logo {
+  font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li:hover {
+  background-color: #FEB000;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+.remainder
+{
+  background-color: bisque;
+}
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+
